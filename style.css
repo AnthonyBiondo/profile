@@ -1,0 +1,71 @@
+body {
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #8c271e;
+  font-size: 30 px;
+}
+
+h1 {
+  color: #14213d;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fca311;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  text-decoration: none;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
+
+.container {
+  width: 1000px; /* Définit la largeur */
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
